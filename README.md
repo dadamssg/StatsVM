@@ -15,6 +15,6 @@ A globally available `startapp` executable will be created for you. This starts 
 
 Graphite will be available at [http://192.168.56.108](http://192.168.56.108).
 
-Elasticsearch will be available [http://192.168.56.108:9200](http://192.168.56.108:9200).
+Elasticsearch will be available at [http://192.168.56.108:9200](http://192.168.56.108:9200).
 
-StatsD will be available `192.168.56.108:8125`.
+StatsD will be available at `192.168.56.108:8125`.
