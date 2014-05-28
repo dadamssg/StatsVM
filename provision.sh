@@ -115,8 +115,7 @@ sudo a2enmod headers
 cp /var/www/graphite.conf /etc/apache2/sites-available/graphite.conf
 cp /var/www/grafana.conf /etc/apache2/sites-available/grafana.conf
 sudo cp /opt/graphite/conf/graphite.wsgi.example /opt/graphite/conf/graphite.wsgi
-sudo mkdir /etc/httpd
-sudo mkdir /etc/httpd/wsgi 
+sudo mkdir -p /etc/httpd/wsgi
 # echo "NameVirtualHost *:80" >> /etc/apache2/httpd.conf
 /etc/apache2/sites-available
 sudo a2ensite graphite.conf
