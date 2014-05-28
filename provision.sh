@@ -6,7 +6,7 @@ sudo apt-get update
 
 # install necessary graphite software
 echo "$(tput setaf 2)installing git, vim, python, apache, etc$(tput sgr0)"
-sudo apt-get install -y vim git-core apache2 apache2-mpm-worker apache2-utils apache2.2-bin apache2.2-common libapr1 libaprutil1 libaprutil1-dbd-sqlite3 build-essential python3.2 python-dev libpython3.2 python3-minimal libapache2-mod-wsgi libaprutil1-ldap memcached python-cairo-dev python-django python-ldap python-memcache python-pysqlite2 sqlite3 erlang-os-mon erlang-snmp rabbitmq-server bzr expect libapache2-mod-python python-setuptools python-pip
+sudo apt-get install -y vim git-core apache2 apache2-mpm-worker apache2-utils apache2.2-bin apache2.2-common libapr1 libaprutil1 libaprutil1-dbd-sqlite3 build-essential python3.2 python-dev libpython3.2 python3-minimal libapache2-mod-wsgi memcached python-cairo-dev python-django python-memcache python-pysqlite2 sqlite3 libapache2-mod-python python-setuptools python-pip
 
 # install python tools
 echo "$(tput setaf 2)installing python tools$(tput sgr0)"
