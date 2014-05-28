@@ -120,7 +120,6 @@ sudo mkdir -p /etc/httpd/wsgi
 /etc/apache2/sites-available
 sudo a2ensite graphite.conf
 sudo a2ensite grafana.conf
-
 sudo rm -rf /etc/apache2/sites-enabled/000-default
 
 # install node
@@ -128,7 +127,7 @@ echo "$(tput setaf 2)installing node$(tput sgr0)"
 sudo apt-get install -y nodejs
 
 # download statsd 
-echo "$(tput setaf 2)downloading node$(tput sgr0)"
+echo "$(tput setaf 2)downloading statsd$(tput sgr0)"
 cd /home/vagrant
 sudo git clone git://github.com/etsy/statsd.git
 sudo cp /var/www/localConfig.js /home/vagrant/statsd/localConfig.js
