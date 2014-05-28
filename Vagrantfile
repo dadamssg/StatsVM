@@ -15,9 +15,4 @@ Vagrant.configure("2") do |config|
 	end
 
 	config.vm.synced_folder ".", "/var/www"
-	# config.vm.synced_folder ".", "/var/www", 
-	#   :nfs => true, 
-	#   :mount_options => ['nolock,vers=3,udp,noatime']
-
-	#config.vm.provision "shell", path: "provision.sh"
 end
