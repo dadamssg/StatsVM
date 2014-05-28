@@ -8,7 +8,7 @@ StatsVM
 5. Follow prompts to install software and create a django admin user
 6. Create an entry in your host computer's hosts file `192.168.56.108 grafana.dev`
 7. Start sending stats. Ex.`echo "accounts.authentication.login.attempted:1|c" | nc -w0 -u 192.168.56.108 8125`
-8. Go to [grafana.dev](http://grafana.dev) and start creating grafts
+8. Go to [grafana.dev](http://grafana.dev) and start creating graphs
 
 ### Notes
  - A globally available `startapp` executable will be created for you. This starts apache, elasticsearch, carbon, and statsd. You will need to execute this command if you halt and bring the vm back up.
