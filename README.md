@@ -13,7 +13,7 @@ StatsVM
 ### Notes
  - A globally available `startapp` executable will be created for you. This starts apache, elasticsearch, carbon, and statsd. You will need to execute this command if you halt and bring the vm back up.
 
- - Grafana will be available at [grafana.dev](http;//grafana.dev)
+ - Grafana will be available at [grafana.dev](http://grafana.dev)
  
  - Graphite will be available at [http://192.168.56.108](http://192.168.56.108).
 
