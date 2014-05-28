@@ -11,10 +11,12 @@ StatsVM
 8. Go to [grafana.dev](http://grafana.dev) and start creating grafts
 
 ### Notes
-A globally available `startapp` executable will be created for you. This starts apache, elasticsearch, carbon, and statsd. You will need to execute this command if you halt and bring the vm back up.
+ - A globally available `startapp` executable will be created for you. This starts apache, elasticsearch, carbon, and statsd. You will need to execute this command if you halt and bring the vm back up.
 
-Graphite will be available at [http://192.168.56.108](http://192.168.56.108).
+ - Grafana will be available at [grafana.dev](http;//grafana.dev)
+ 
+ - Graphite will be available at [http://192.168.56.108](http://192.168.56.108).
 
-Elasticsearch will be available at [http://192.168.56.108:9200](http://192.168.56.108:9200).
+ - Elasticsearch will be available at [http://192.168.56.108:9200](http://192.168.56.108:9200).
 
-StatsD will be available at `192.168.56.108:8125`.
+ - StatsD will be available at `192.168.56.108:8125`.
